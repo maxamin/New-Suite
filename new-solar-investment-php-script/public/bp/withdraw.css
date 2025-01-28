@@ -1,0 +1,183 @@
+.balancebox{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    background:#ffffff;
+    box-shadow: 0 30px 28px -16px rgba(30, 46, 36, 0.05);
+    overflow: hidden;
+}
+.jianbian{
+    width: 100%;
+    height: 114px;
+    background-image: linear-gradient(to right,#FFC267,#F49D1A);
+    box-sizing: border-box;
+    padding: 16px;
+    color: #ffffff;
+    position: relative;
+}
+.jianbian h3{
+    margin: 10px 0;
+}
+.coinimg{
+    width: 54px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 29px;
+}
+.balanceicon{
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+.jianbian .flex_sta{
+    font-size: 16px;
+    font-family: 'fontl';
+}
+.obtain{
+    width: 100%;
+    height: auto;
+    border: 1px dashed #DCDFE5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    background: #FFFFFF;
+    color: #A5A7AB;
+    font-size: 12px;
+    font-family: 'fontl';
+    align-items: normal;
+    margin-top: 10px;
+ }
+ .obtain img{
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+ }
+ .withdrawbox{
+    width:  100%;
+    height: 81px;
+    border: 1px solid #DCDFE5;
+    border-radius: 8px;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 0 15px;
+    color: #A5A7AB;
+    font-family: 'fontm';
+    text-align: center;
+    margin-top: 15px;
+ }
+ .withdrawbox h4{
+    color: #13B156;
+    font-size: 20px;
+    margin: 22px 0 0 0;
+ }
+ .withdrawbox input{
+    text-align: center;
+    border: none;
+    outline:none;
+    width: 100%;
+    color: #13B156;
+    font-family: 'fontm';
+    font-size: 14px;
+ }
+ .withdrawbox div{
+    flex: 1;
+ }
+ .withdrawbox input::placeholder{
+    color: #D2D3D5;
+    font-family: 'fontl';
+ }
+ .withdrawbtn{
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    color: #ffffff;
+    background: #13B156;
+    text-align: center;
+    line-height: 48px;
+    margin-top: 15px;
+ }
+ .nocard{
+    width: 100%;
+    height: auto;
+    border: 1px dashed #DCDFE5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    background: #FFFFFF;
+    color: #A5A7AB;
+    font-size: 12px;
+    font-family: 'fontl';
+    align-items: normal;
+    margin-top: 15px;
+    color: #1E232E;
+    font-size: 12px;
+ }
+ .nocard img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+ }
+ .nocard a{
+    color: #13B156;
+    font-family: 'fontm';
+    text-decoration: underline;
+    line-height: 24px;
+ }
+ .modaltitle{
+    margin: 20px 0;
+ }
+ .nothing{
+    margin: 50px 0;
+ }
+ .withdrawrecord{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #DCDFE5;
+ }
+ .withdrawrecord li{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #DCDFE5;
+    box-sizing: border-box;
+    padding: 18px 9px; 
+    font-size: 12px;
+    align-items: normal;
+ }
+ .withdrawrecord li .flex_sta{
+    align-items: normal;
+ }
+ .recordpoint{
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    margin-top: 3px;
+ }
+ .amount{
+   color: #4B4F58;
+   font-size: 12px;
+ }
+ .time{
+    color: #4B4F58;
+    font-size: 12px;
+    font-family: 'fontl';
+ }
+ .success{
+    color: #13B156;
+ }
+ .process{
+    color: #FFAA2C;
+ }
+ .status{
+    font-size: 12px;
+ }
+ .status img{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+ }
+ .fail{
+    color: #F04257;
+ }

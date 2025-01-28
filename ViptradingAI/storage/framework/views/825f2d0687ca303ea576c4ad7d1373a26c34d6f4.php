@@ -1,0 +1,3 @@
+<strong
+    class="<?php echo e($type !== 'subtract' && $type !== 'investment' && $type !==  'withdraw' && $type !==  'send_money' ? 'green-color': 'red-color'); ?>"><?php echo e(($type !== 'subtract' && $type !== 'investment' && $type !==  'withdraw' && $type !==  'send_money' ? '+': '-' ).$amount.' '.$currency); ?></strong>
+<?php /**PATH /home/u718774278/domains/h5.tradervipai.com/public_html/resources/views/backend/transaction/include/__txn_amount.blade.php ENDPATH**/ ?>

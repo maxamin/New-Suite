@@ -1,0 +1,202 @@
+.exchange-list {
+	padding: 8px 12px 30px;
+	background-image: url('/static/images/qiguai-bg2_top.png'), url('/static/images/qiguai-bg2_bottom.png'), url('/static/images/qiguai-bg2_center.png');
+	background-repeat: no-repeat;
+	background-position: left top, left bottom, left center;
+	background-size: 100% 30px, 100% 30px, 100% calc(100% - 60px);
+}
+
+.exchange-title {
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.exchange-title img {
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.exchange-table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.exchange-table thead th {
+	padding: 8px 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--color-white);
+}
+.exchange-table tbody {
+	background: rgba(5, 17, 52, 1);
+	border-radius: 5px;
+}
+.exchange-table tbody th {
+	padding: 5px 0;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+		color: var(--color-white);
+}
+.exchange-table tbody td {
+	padding: 12px 0;
+	border-bottom: 1px solid var(--mainColor);
+	text-align: center;
+}
+.exchange-table .currency {
+	text-align: left;
+	font-size: 13px;
+	font-weight: 400;
+}
+.exchange-table .currency img {
+	margin: 0 10px;
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+}
+.exchange-table  .price {
+	font-size: 14px;
+	font-weight: 600;
+}
+.exchange-table .change div {
+	display: inline-block;
+	height: 28px;
+	padding: 0 12px;
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgba(0, 10, 37, 1);
+	border-radius: 8px;
+	background: rgba(0, 224, 219, 1);
+}
+
+.exchange-table a {
+	display: inline-block;
+	min-width: 70px;
+	padding: 6px 10px;
+	border-radius: 5px;
+	color: #333;
+}
+
+.exchange-table a:hover {
+    color: #fff;
+}
+
+.exchange-table .active-tab {
+  color: #fff;
+}
+
+/********** data-box **********/
+.data-box {
+	padding: 8px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.data-box .left {
+	box-sizing: border-box;
+	width: 34%;
+	padding: 5px;
+}
+
+.data-box .center {
+	box-sizing: border-box;
+	width: 34%;
+	padding: 5px;
+	text-align: center;
+}
+
+.data-box .right {
+	box-sizing: border-box;
+	width: 32%;
+	padding: 5px;
+	text-align: center;
+}
+
+.data-box b {
+	font-weight: bold;
+	line-height: 22px;
+}
+
+.data-box span {
+	color: var(--color-white);
+}
+
+.data-box .header {
+	display: flex;
+	font-size: 16px;
+	line-height: 20px;
+	white-space: nowrap;
+}
+
+.data-box .header span {
+  color: var(--color-white);
+}
+
+.data-box .item {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid var(--boxColor);
+	padding-left: 28px;
+    background: url(/static/images/icon/gold.svg) no-repeat left center;
+}
+
+.data-box .item .left {
+	display: flex;
+}
+
+.data-box .item .left .icon {
+	width: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.data-box .item .left .icon img {
+	width: 24px;
+	height: 24px;
+}
+
+.data-box .item .left .info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.data-box .item .left .info .name {
+	white-space: nowrap;
+}
+
+.data-list:first-child {
+	border-top: 0;
+}
+
+.data-list .label {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 4px 8px;
+	line-height: 20px;
+	width: 80px;
+	border-radius: 5px;
+    background-color:var(--color-white);
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+
+.data-list .label-increase {
+	background: #63c409;
+}
+
+.data-list .label-decrease {
+	background-color: #d13d11;
+}
+
+.data-list .label-steady {
+	color: #aaa;
+	background-color: #666;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="812px" viewBox="0 0 375 812" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bj</title>
+    <defs>
+        <linearGradient x1="50%" y1="1.84059273%" x2="50%" y2="77.9217734%" id="linearGradient-1">
+            <stop stop-color="#111747" offset="0%"></stop>
+            <stop stop-color="#050A1C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="92.5977455%" y1="85.8548475%" x2="50%" y2="46.3779128%" id="linearGradient-2">
+            <stop stop-color="#293A83" offset="0%"></stop>
+            <stop stop-color="#060C1F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.1342945%" y1="15.0709914%" x2="37.4349068%" y2="40.7397129%" id="linearGradient-3">
+            <stop stop-color="#293A83" offset="0%"></stop>
+            <stop stop-color="#060C1F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="-5" transform="translate(-171.000000, -168.000000)">
+            <rect id="" fill="url(#linearGradient-1)" x="171" y="168" width="375" height="812"></rect>
+            <circle id="" fill="url(#linearGradient-2)" cx="185.5" cy="185.5" r="185.5"></circle>
+            <circle id="" fill="url(#linearGradient-3)" opacity="0.609962827" cx="567" cy="992" r="113"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,2 @@
+<div class="site-badge primary-bg"><?php echo e(ucfirst(str_replace('_',' ',$type))); ?></div>
+<?php /**PATH /home/u718774278/domains/h5.tradervipai.com/public_html/resources/views/frontend/user/include/__txn_type.blade.php ENDPATH**/ ?>

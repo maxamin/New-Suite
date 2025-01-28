@@ -1,0 +1,1 @@
+<?php /**PATH /home/u718774278/domains/h5.tradervipai.com/public_html/resources/views/frontend/withdraw/include/__details.blade.php ENDPATH**/ ?>

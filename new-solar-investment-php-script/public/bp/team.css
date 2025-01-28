@@ -1,0 +1,103 @@
+ .obtain{
+    width: 100%;
+    height: auto;
+    border: 1px dashed #DCDFE5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    background: #FFFFFF;
+    color: #A5A7AB;
+    font-size: 12px;
+    font-family: 'fontl';
+    align-items: normal;
+    margin-top: 10px;
+ }
+ .obtain img{
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+ }
+ .obtain span{
+    color: #13B156;
+    font-size: 12px;
+    font-family: 'fontb';
+ }
+ .leveltable{
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #FFFFFF;
+    font-size: 14px;
+    border-color: #DCDFE5;
+    color: #4B4F58;
+    font-family: 'fontl';
+    margin-top: 15px;
+ }
+ .leveltable tr{
+    height: 40px;
+    text-align: center;
+ }
+ .leveltable th{
+    background: #13B156;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 0 12px;
+    font-size: 14px;
+    height: 40px;
+    align-items: center;
+ }
+ .leveltable th .flex_sta{
+    align-items: center;
+ }
+ .leveltable th h6{
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+    
+ }
+ .leveltable th img{
+    width: 24px;
+    height: 24px;
+ }
+ .leveltable td span{
+    color: #13B156;
+    font-family: 'fontm';
+    font-size: 13px;
+ }
+ .referraldetail{
+    border: 1px solid #DCDFE5;
+    border-radius: 12px; 
+ }
+ .referraldetail li{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #DCDFE5;
+    box-sizing: border-box;
+    padding: 12px 8px;
+    color: #4B4F58;
+    font-family: 'fontl';
+    font-size: 12px;
+    align-items: normal;
+ }
+ .listinfo{
+    flex: 1;
+ }
+ .referraldetail img{
+    width: 10px;
+    height: 10px;
+    margin-top: 4px;
+    margin-right: 5px;
+ }
+ .textright{
+    text-align: right;
+ }
+ .listinfo p span{
+    color: #13B156;
+    font-family: 'fontm';
+ }
+ .modaltitle{
+    margin: 20px 0;
+ }
+ .nothing{
+    margin: 50px 0;
+ }

@@ -1,0 +1,80 @@
+body{
+    padding-bottom: 0;
+}
+.loginimg{
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 0 20px 10px #ffffff;
+    margin-bottom: 15px;
+}
+.inputbox input::placeholder,input::placeholder{
+    color: #D2D3D5;
+    font-size: 14px;
+    font-family: 'fontl';
+}  
+.inputbox{
+    width: 100%;
+    border: 1px solid #3E434E;
+    width: 100%;
+    height: 46px; 
+    border: 1px solid #DCDFE5;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.inputbox input{ 
+    height: 46px;
+    border: none;
+    background: none; 
+    outline: none;
+}
+.inputbox input:focus{
+    outline:0;
+}
+.inputbox img{
+    width:100px; 
+}
+.label{
+    color: #4B4F58;
+    font-size: 14px;
+    font-family: 'fontl';
+}
+.inputbox p{
+    color: #D2D3D5;
+    font-size: 14px;
+    font-family: 'fontl';
+    margin-right: 10px;
+}
+.toregister{
+    color: #13B156;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.account{
+    color: #1E232E; 
+    font-size: 12px;
+    font-family: 'fontl';
+    margin-top: 15px;
+}
+.loginbtn{
+    width: 100%;
+    height: 48px;
+    background: #13B156;
+    border-radius: 8px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 48px;
+    font-size: 14px;
+    margin: 30px 0;
+}
+.bottomright{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}

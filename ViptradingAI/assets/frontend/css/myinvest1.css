@@ -1,0 +1,58 @@
+
+         .container47 {
+            display: flex; justify-content: center;
+            margin-bottom: 15px;
+            margin-top: -20px;
+        }
+        .container48 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 85%; /* İsteğe bağlı olarak genişliği ayarlayabilirsiniz */
+            height: 30px;
+            
+        }
+
+        .line {
+            width: 30px;
+            height: 10px; /* Çizgi uzunluğunu ayarlayabilirsiniz */
+        }
+
+        .text {
+            padding: 0 10px;
+            width: 140px;
+            justify-content: center;
+            display: flex; 
+            width: 100%;
+            border: 3px solid #090A3C;
+        }
+        
+        .fdre {
+            background-color: transparent;
+            color: #26d5f0;
+            font-size: 18px;
+        }
+        .col-md-6 {
+        display: none;
+    }
+    
+    .sorting_asc {
+        display: none;
+    }
+    
+    th {
+        display: none;
+    }
+    
+    .dataTables_info {
+        display: none;
+    }
+    
+   .col-md-7 {
+        display: none;
+    }
+    
+    .rrr {
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+  }

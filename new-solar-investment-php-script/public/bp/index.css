@@ -1,0 +1,165 @@
+ 
+ .swiper-slide img{
+    width: 100%;
+    height: auto;
+    display: block; 
+  }
+  .swiper-slide{
+    position: relative;
+  }
+  .swiper-pagination{
+    position: absolute;
+    bottom: 8px;  
+    right: 0;
+    /* height: 4px;  */
+  }
+  .swiper-pagination-bullet{
+    width: 34px;
+    height: 4px;
+    background: rgba(15, 15, 15, 0.9) !important;
+    opacity:.5 ; 
+    /* margin: 0 4px; */
+    box-sizing: border-box !important; 
+    background:#ffffff;
+    border-radius: 1px;
+  }
+  .swiper-pagination-bullet-active{
+    background: #FFFFFF !important;
+    opacity:1 ; 
+  }
+  .balance{ 
+     width: 46%;
+     height: 85px;
+     border-radius: 8px;
+     background: #13B156;
+     display: block;
+     margin-top: 15px;
+     box-sizing: border-box;
+     padding: 16px;
+     color: #B8E7CC;
+     font-size: 12px;
+     font-family: 'fontl';
+  }
+  .about,.referral{
+    width: 25%;
+    height: 85px;
+    border-radius: 8px;
+    background: #d3f3d8;
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 21px;
+  }
+  .about img,.referral img{
+    width: 22px;
+    height: 22px;
+  }
+  .referral{
+    color: #FFAA2C;
+  }
+  .about{
+    color: #13B156 ;
+  }
+  .balance img{
+    width: 17px;
+    height: 17px;
+  }
+  .balance .flex_sta img{
+    margin-right: 4px;
+  }
+  .balance h5{
+    font-size: 18px;
+    margin: 0;
+    color: #ffffff;
+    margin-top: 6px;
+  }
+  .modaltitle{
+    color: #000000;
+    font-size: 16px;
+  }
+  .productlist li{
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #DCDFE5;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 15px;
+    position: relative;
+  }
+  .Price_box{
+    position: absolute;
+    width: 149px;
+    height: 40px;
+    top: -2px;
+    right: -10px;
+    background-image:url('/uploads/material/lam.png');
+    background-size: cover;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'fontl';
+    box-sizing: border-box;
+    padding: 5px 10px;
+  }
+  .productlist li h6{
+    color: #1E232E;
+    font-size: 14px;
+    margin: 0;
+  }
+  .productlist li .duration{
+    color: #4B4F58;
+    font-size: 12px;
+    font-family: 'fontl';
+    margin-bottom: 6px;
+  }
+  .productlist li .duration span{
+    color: #13B156;
+    font-family: 'fontm';
+    margin: 0 2px;
+  }
+  .goodsimg{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-right: 8px;
+  }
+  .goodsinfo p{
+    color: #4B4F58;
+    font-size: 14px;
+    font-family: 'fontl';
+  }
+  .goodsinfo span{
+    color: #009900;
+    font-size: 16px;
+  }
+  .flex_be{
+    /* flex-wrap: nowrap; */
+  }
+  .goodsinfo {
+   flex: 1;
+  } 
+  .detailbtn{
+    width: 48%;
+    height: 36px;
+    border-radius: 8px;
+    background: #d3f3d8;
+    color: #13B156;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 10px;
+  }
+  .buybtn1{
+    width: 48%;
+    height: 36px;
+    border-radius: 8px;
+    background: #13B156;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 10px;
+  }

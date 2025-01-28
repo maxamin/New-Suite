@@ -1,0 +1,120 @@
+
+.centered-content3 {
+    text-align: center;
+}
+
+.custom-button {
+    background-image: url('/assets/global/images/blue2.jpg');
+    width: 80%;
+    color: #15FFDF;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid background-image: url('/assets/global/images/blue2.jpg');; 
+    border-radius: 10px; 
+}
+
+
+.horizontal-line {
+    width: 100%; 
+    height: 1px; 
+    background-color: #222324; 
+    margin-top: -10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-top {
+    align-self: flex-start;
+    margin-left: -13px;
+    color: #8993A9;
+    font-size: 16px;
+}
+
+.right-top {
+    align-self: flex-start;
+    width: 10px;
+    
+    
+}
+
+.content-container {
+    padding: 15px; 
+    background-image: url('/assets/global/images/blue2.jpg');
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(44, 46, 48, 0.5);
+    
+}
+
+.centered-content {
+    text-align: center;
+    
+}
+
+.kjk {
+    color: #FFFFFF;
+        font-size: 14px;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+.centered-content2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.centered-content2 p {
+    margin: 0 10px; 
+}
+
+
+.prg {
+    color: #FFFFFF;
+        font-size: 18px;
+        margin-top: 21px;
+}
+.line {
+    width: 1px; 
+    height: 70px; 
+    background-color: #000;
+}
+
+.paragraph-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    display: flex; background-image: url('/assets/global/images/blue2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.centered-content {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.centered-h2 {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+    .ppr {
+        color: #9FABC4;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    
+    .ppa {
+        color: #FFFFFF;
+        font-size: 20px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+    

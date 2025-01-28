@@ -1,0 +1,15 @@
+php 8.1
+
+config settings .env
+
+curl -s https://yourdomain/cron-job/investment
+curl -s https://yourdomain/cron-job/referral
+curl -s https://yourdomain/cron-job/user-ranking
+
+admin login: yoursite/admin
+email: admin@gmail.com
+password: admin
+
+by tg: https://t.me/freeponzimarket
+https://t.me/freeponzimarket
+

@@ -1,0 +1,26 @@
+#language_selector {
+        position: fixed;
+        top: 13px;
+        right: 16px;
+        z-index: 9999;
+        background: #0c0d0c;
+        width: 100px;
+        color: #0CFBCA;
+        border: 1px solid #0CFBCA;
+        border-radius: 10px;
+        padding: 6px 8px;
+        max-width: 100%;
+        transition: background-color 0.3s;
+        outline: none;
+    }
+
+    .notranslate {
+        /* Dil isimlerini çevirmemek için notranslate sınıfını kullanın */
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none; /* Standart */
+    }
+    #language_selector {
+        display: none; /* Başlangıçta etiketi gizle */
+    }

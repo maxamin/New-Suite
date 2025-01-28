@@ -1,0 +1,58 @@
+ .bannerbox{
+    width: 100%;
+    height: auto;
+ }
+ .bannerbox img{
+    width: 100%;
+    height: auto;
+    display: block;
+ }
+ .referralbox{
+    width: 90%;
+    height: auto;
+    background: #EDF1F4;
+    border-radius: 8px;
+    margin: -20px auto;
+    position: relative;
+    z-index: 4;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    color: #A5A7AB;
+    font-size: 12px;
+ }
+ .referralbox p{
+    margin-bottom: 6px;
+ }
+ .inputbox{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #DCDFE5;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #13B156;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    box-sizing: border-box;
+    padding: 11px 12px; 
+}
+.copy{
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    background: #13B156;
+    text-align: center;
+    line-height: 48px;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 22px 0;
+}
+.newly{
+    color: #5F85A6;
+    font-size: 14px;
+    font-family: 'fontl';
+    margin-top: 15px;
+}
+.newly span{
+    font-family: 'fontm';
+}

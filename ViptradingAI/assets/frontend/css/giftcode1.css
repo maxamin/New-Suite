@@ -1,0 +1,89 @@
+.popup-container {
+            position: fixed;
+            justify-content: center;
+            top: 0;
+            left: 0;
+            width: 100%;
+            font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/frontend/images/giftcode.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; /* Resmi tam ortadan görüntülemek için */
+    height: 100vh;
+            z-index: 9999999;
+        }
+
+        
+
+        .close-btn {
+            position: absolute;
+            top: 12px;
+            right: 20px;
+            cursor: pointer;
+        }
+        
+        .custom-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #00fbff;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            background-color: #3238db;
+            border-radius: 10px;
+        }
+
+        .form-button {
+            background-color: rgba(1, 2, 43, 0.6);
+            width: 100%;
+            color: #00fbff;
+            padding: 10px 15px;
+            border: 1px solid #00fbff;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .form-button:hover {
+            background-color: black;
+        }
+
+        .success-message {
+            font-size: 17px;
+            color: #4caf50;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        
+        .error-message {
+            font-size: 17px; 
+            color: #ff0a2f;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        
+        .hgh {
+            color: #9FABC4;
+            font-size: 15px;
+        }
+        
+        #myParagraph {
+            transition: opacity 3s; /* Animasyon süresi */
+        }

@@ -1,0 +1,403 @@
+.video-container {
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(44, 46, 48, 1);
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .invisible-button {
+            background-color: transparent; 
+            border: 1px solid #15FFDF; 
+            color: #15FFDF;
+            border-radius: 8px; 
+            padding: 10px 20px; 
+            cursor: pointer; 
+            width: 100%;
+            font-size: 15px;
+        }
+        .popup-container {
+            display: none;
+            position: fixed;
+            justify-content: center;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/frontend/images/giftcode.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 100vh;
+            z-index: 9999999;
+        }
+
+        
+
+        .close-btn {
+            position: absolute;
+            top: 12px;
+            right: 20px;
+            cursor: pointer;
+        }
+        
+        @keyframes rotateAndScale {
+            0%, 100% {
+                transform: scale(1) rotate(0deg);
+            }
+            25% {
+                transform: scale(1.1) rotate(-10deg);
+            }
+            50% {
+                transform: scale(1) rotate(0deg);
+            }
+            75% {
+                transform: scale(1.1) rotate(10deg);
+            }
+        }
+
+        .rotating-image {
+            width: 80px;
+            animation: rotateAndScale 10s infinite;
+            margin-left: -25px;
+        }
+        
+        .rotating-image2 {
+            width: 80px;
+            animation: rotateAndScale 10s infinite;
+            margin-left: 0px;
+        }
+
+  
+
+
+    .uzun-cizgi {
+    width: 1px; 
+    height: 70px; 
+    background-color: #15FFDF; 
+    margin-right: 1px; 
+    margin-left: 1px; 
+}
+
+    .rtf {
+        font-size: 13px; 
+        color: #9FABC4; 
+        width: 90px;
+    }
+    
+    .rtt {
+        font-size: 19px;
+        color: #15FFDF;
+        margin-top: -18px;
+    }
+    
+    .slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: 0.3px solid black;
+    border-radius: 5px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+
+
+
+
+
+.image-container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .image1 {
+        max-width: 50%; 
+        height: auto;
+    }
+    
+    .image2 {
+        max-width: 30%; 
+        height: auto;
+    }
+    
+    .image3 {
+        max-width: 5%; 
+        height: auto;
+    }
+.custom-popup {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	align-items: center;
+	justify-content: center;
+	z-index: 99999999;
+}
+
+.custom-popup p {
+	color: white;
+}
+
+.custom-popup span {
+	right: 100%;
+	font-size: 40px;
+	color: white;
+	cursor: pointer;
+	margin-left: 85%;
+}
+
+.orsl {
+	font-size: 16px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+
+
+
+    
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999999;
+        background-image: url('/assets/global/images/blue2.jpg');
+        padding: 10px; 
+        border-radius: 0 0 5px 5px;
+    }
+    
+    .mkm {
+                        border-radius: 5px;
+                    }
+                    
+                    .containert {
+            display: flex;
+        }
+
+        .boxt1 {
+            width: 178px;
+            height: 100px;
+            border-radius: 10px;
+            background: url(/assets/global/images/blue2.jpg);background-size: 100% 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 20px;
+        }
+        
+        .boxt2 {
+            width: 178px;
+            height: 100px;
+            border-radius: 10px;
+            background: url(/assets/global/images/blue2.jpg);background-size: 100% 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        
+        .marquee {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    position: relative; 
+    text-align: center;
+            border-radius: 35px 10px 10px 35px;
+}
+
+
+.marquee p {
+    display: inline-block;
+    animation: scroll-left 20s linear infinite;
+    animation-delay: 0s; 
+    position: relative;
+    z-index: 1;
+    font-size: 16px; 
+    color: white;    
+    margin-top: -15px;
+}
+
+
+.marquee img {
+    position: relative; 
+    z-index: 2; 
+    margin-left: -3px;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(20%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.custom-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #00fbff;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            background-color: #3238db;
+            border-radius: 10px;
+        }
+
+        .form-button {
+            background-color: rgba(1, 2, 43, 0.6);
+            width: 100%;
+            color: #00fbff;
+            padding: 10px 15px;
+            border: 1px solid #00fbff;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .form-button:hover {
+            background-color: black;
+        }
+
+        .success-message {
+            font-size: 17px;
+            color: #4caf50;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        
+        .error-message {
+            font-size: 17px; 
+            color: #ff0a2f;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        
+        .hgh {
+            color: #9FABC4;
+            font-size: 15px;
+        }
+        
+        #myParagraph {
+            transition: opacity 3s; 
+        }
+        
+        .container959 {
+            display: flex;
+            width: 100%;
+            height: 70px;
+            justify-content: space-between; 
+            background-image: url('/assets/global/images/blue2.jpg');background-size: 100% 100%;border-radius: 10px;
+            border-radius: 40px 20px 10px 40px;
+        }
+
+       
+        .content959 {
+            margin: 10px;
+        }
+        .rotatiner {
+            width: 110px;
+            margin-top: -20px;
+            margin-left: -20px;
+            animation: rotate 2s linear infinite; 
+        }
+
+        @keyframes rotate {
+            to {
+                transform: rotate(360deg); /* 360 derece dönüş (bir tam tur) */
+            }
+        }
+        .rotatiner2 {
+            width: 190px;
+            margin-top: 13px;
+            margin-left: -45px;
+        }
+              .custom-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  z-index: 99999999;
+}
+
+.custom-popup p {
+  color: white;
+}
+
+.custom-popup span {
+  right: 100%;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  margin-left: 85%;
+}
+
+.orsl {
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}

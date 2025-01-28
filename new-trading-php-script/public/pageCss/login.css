@@ -1,0 +1,150 @@
+.login-footer label input + i.login-bg {
+    /*
+	background-color: var(--color-primary);
+	background-repeat: no-repeat;
+	background-size: 130px;
+	background-position: right 70px;
+	*/
+	background-image: url('static/images/login-bg.png');
+	background-size: 100% 30%;
+	
+}
+.login-title {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0 20px;
+	padding-left: 36px;
+	color: var(--text-white);
+}
+.login-title .logo {
+	width: 50px;
+	height: 50px;
+}
+
+.login-title .logo-text {
+	margin-top: 6px;
+	width: 50px;
+	height: 20px;
+}
+.login-box {
+	
+	padding: 10px 20px;
+/*	background-color:var(--bg-primary); background-image: url(/static/images/bg-06.png);min-height: 90vh;*/
+	border-radius: 36px 36px 0 0;
+	
+background-position: center;
+background-size: 60px;
+background-repeat: no-repeat;
+background-position: bottom;
+}
+
+.login-input-group {
+	position: relative;
+	margin-top: 40px;
+}
+.login-input-group .label {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 36px;
+	font-size: 16px;
+	color: #333;
+	font-weight: 700;
+}
+.login-input-box {
+	position: relative;
+	height: 55px;
+}
+.login-input-control {
+	display: block;
+	width: 100%;
+	height: 55px;
+	padding: 0 15px 0 30px;
+	font-size: 16px;
+	outline: none;
+}
+.login-input-box.phone .login-input-control {
+	padding-left: 100px;
+}
+
+.login-form-phone-select {
+	position: absolute;
+	left: 20px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 30px;
+}
+.login-form-phone-select::after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	right: 3px;
+	top: 12px;
+	width: 0;
+	height: 0;
+	outline: none;
+	border-left: 5px solid #000;
+	border-top: 5px solid #fff;
+	border-right: 5px solid transparent;
+}
+.login-form-phone-value {
+	color:#000;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.login-footer {
+	display: flex;
+	padding: 0 20px;
+	justify-content: space-between;
+	margin: 12px 0 25px;
+	font-size: 14px;
+}
+.login-footer label {
+	color:#666;
+}
+.login-footer label input {
+	display: none;
+}
+.login-footer label input+i {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 16px;
+	text-align: center;
+	color: #000;
+	border: 1px solid #333;
+	border-radius: 50%;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.login-footer label input:checked+i {
+	background: url('static/images/icon/check-checked.png') no-repeat;
+	background-size: 100% 100%;
+	border: none;
+}
+
+.login-footer .login-footer-link {
+	color: var(--text-link)
+}
+.login-footer .login-footer-link-2 {
+	color: var(--text-primary)
+}
+
+.login-yinsi {
+	margin: 20px 30px;
+}
+.login-yinsi > div {
+	box-sizing: border-box;
+	padding: 15px 0 32px 15px;
+	font-size: 14px;
+	color: var(--text-secondary);
+	line-height: 20px;
+	text-align: center;
+	background: url('static/images/login/login-app-donw-button.png') no-repeat;
+	background-position: center bottom;
+}
+

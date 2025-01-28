@@ -1,0 +1,154 @@
+:root {
+	--mainColor: #38EF7D;
+}
+
+#app,
+body,
+html {
+	height: 100%;
+	color: #fffd00;
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	max-width: 540px;
+	margin: 0 auto;
+}
+
+body {
+	line-height: 1;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+}
+
+.center-panel {
+	display: flex;
+	padding: 48px 0 0;
+	flex-direction: column;
+	background: var(--color-primary);
+	/*
+	background-size: cover;
+	background-image: url('/static/images/login-bg.png');
+	*/
+    background-size: 100% 100%;
+}
+
+.center-panel .main {
+	padding: 15px 15px 85px 15px;
+	flex: 1;
+	min-height: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+/* top title */
+.top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	max-width: 540px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+	z-index: 5;
+	background: linear-gradient(90deg, #3566dc, #0fd1d1);
+}
+
+.top .back {
+	margin: 0 10px;
+	width: 50px;
+	height: 20px;
+	fill: var(--text-white);
+	cursor: pointer;
+}
+
+.top .title {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+	/*width: 50px;*/
+	min-width: 140px;
+	color: #fff;
+}
+.top .title .ornament {
+	padding: 0 20px;
+	height: 35px;
+	line-height: 35px;
+	min-width: 120px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+
+.top .lang {
+	margin: 0 20px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.top .lang img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+/* bottom tabbar */
+/*footer*/
+.wa_footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	max-width: 540px;
+	z-index: 100;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 12px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(90deg, #35dc9e, #3c0fd1);
+	border-radius: 8px 8px 0 0;
+	box-shadow: -1px -2px 6px rgba(0, 0, 0, .25);
+
+}
+
+.wa_footer .item.active {
+	color: #fff;
+}
+
+.wa_footer .item {
+	flex: 1;
+	text-align: center;
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+}
+
+.wa_footer .item .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 26px;
+}
+.wa_footer .item .icon img {
+	width: 20px;
+	height: 20px;
+}
+
+.wa_footer .item:nth-of-type(3) .icon img {
+    width: 40px;
+    height: 40px;
+}
+
+/*fromwork end===============*/

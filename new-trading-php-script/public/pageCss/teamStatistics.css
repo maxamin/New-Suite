@@ -1,0 +1,153 @@
+.tsa-box {
+	margin-bottom: 15px;
+	padding: 15px;
+	border-radius: 10px;
+background: #1dcbff;
+box-shadow: 0px 3px 9px  rgba(0, 0, 0, 0.25);
+}
+
+.team-wrap {
+    padding-top: 40px;
+    min-height: 162px;
+	border-radius: 18px;
+  background: #1dcbff;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tsa-box-title {
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tsa-box-title > h5 {
+	margin: 0;
+	font-size: 16px;
+	color: var(--color-white);
+}
+
+.date-select {
+	position: relative;
+	padding: 0 0 0 15px;
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 10px;
+	font-size: 14px;
+	color: #000;
+	background:#fff;
+	border: 1px solid #fff;
+}
+.date-select::after {
+	content: ' ';
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border: 1px solid #020202;
+	border-top: none;
+	border-right: none;
+	transform: rotate(-45deg);
+}
+
+.tsa-ng-dl {
+	margin-top: 20px;
+	display: flex;
+}
+.tsa-ng-dd {
+	flex: 1;
+	text-align: center;
+	border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+.tsa-ng-dl .tsa-ng-dd:first-child {
+	border-left: none;
+}
+.tsa-ng-dd > div {
+	margin-bottom: 10px;
+	font-size: 12px;
+    color: var(--color-white);
+}
+.tsa-ng-dd > span {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--color-white);
+}
+
+
+.sy-gooter {
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: space-between;
+	padding: 12px 0;
+	border-bottom: 1px solid rgba(56, 239, 125, 0.53);
+	border-top: 1px solid rgba(56, 239, 125, 0.53);
+}
+.sy-ng-dl {
+	display: flex;
+}
+.sy-ng-dd {
+	flex: 1;
+	text-align: center;
+}
+.sy-ng-dd > div {
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 1);
+}
+.sy-ng-dd > span {
+	font-size: 20px;
+	font-weight: 600;
+	color: rgba(22, 186, 85, 1);
+}
+
+.sds-tt {
+	margin-top: 15px;
+	font-size: 14px;
+	color: #fff;
+}
+.sds-dl {
+	display: flex;
+	padding: 15px 0;
+	border-bottom: 1px solid #fff;
+}
+.sds-dl:last-child {
+	border-bottom: none;
+}
+.sds-ng-dd {
+	flex: 1;
+	text-align: center;
+}
+.sds-ng-dd > div {
+	margin-top: 10px;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 1);
+}
+.sds-ng-dd > span {
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+
+
+.date-select-modal {
+display: none;
+  position: relative;
+  width: 100vw;
+  min-height: 200px;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+	background: #1dcbff;	
+}
+
+.date-select-options {
+	max-height: 300px;
+	overflow: auto;
+}
+.date-select-option {
+	padding: 10px 5px;
+	color: var(--color-white);
+	text-align: center;
+	border-bottom: 1px solid var(--border-primary);
+}
